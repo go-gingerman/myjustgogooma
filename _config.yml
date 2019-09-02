@@ -1,0 +1,37 @@
+# Site settings
+title: Just Go구마
+description: "고구마 덕후를 위한 가이드"
+url: "https://mygogooma.com"
+author:
+  name: "justgogooma"
+  email: "gogooma23@gmail.com"
+  url: "https://mygogooma.com"
+
+# Build settings
+baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
+markdown: kramdown
+permalink: /:title
+paginate: 8
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+Plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: false
