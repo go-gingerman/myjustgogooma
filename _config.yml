@@ -23,7 +23,7 @@ defaults:
       layout: "post"
 
 # Plugins
-jekyll_plugins:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
