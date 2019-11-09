@@ -123,6 +123,17 @@
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
+<script>
+   document.getElementById('posts').onclick=fb_clickPost;
+   function fb_clickPost ()
+   {
+     fbq('track', 'ViewContent', {
+        content_title: title
+       });
+   }
+
+</script>
+
 
 
 
