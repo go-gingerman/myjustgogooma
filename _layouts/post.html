@@ -17,11 +17,12 @@ comments: true
 {% include disqus.html %}
 
 <script>
-
-document.getElementById('post-page').onclick=fb_track
- function fb_track() {
-	fbq('track', 'ViewContent', {
-		 content_title: title
-		}
-}, false);
-</script>
+var postname = document.getElementById('post-page');
+postname.onclick=afddEventListner('click',function()
+{
+    fbq('track', 'ViewContent',{
+      content_title:'document.title'
+    } )
+  }
+  );
+  </script>
