@@ -17,12 +17,8 @@ comments: true
 {% include disqus.html %}
 
 <script>
-var postname = document.getElementById('post-page');
-postname.onclick=addEventListner('click',function()
-{
-    fbq('track', 'ViewContent',{
+  fbq('track', 'ViewContent',{
       content_title:'document.title'
-    } )
-  }
+    } 
   );
   </script>
