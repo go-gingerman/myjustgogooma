@@ -128,11 +128,20 @@
 
 
 <script>
-var postname = document.getElementById('posts');
-postname.addEventListner('click',function(){
-    fbq('track', 'ViewContent',{content_title:'document.title',}
-  ) });
+var postname = document.getElementByClassName('post');
+postname.addEventListner('click',function()
+{
+    fbq('track', 'ViewContent',{
+      content_title:'document.title'
+    } )
+  }
+  );
+
+
   </script>
+
+
+
 
 
 
