@@ -128,7 +128,18 @@
 
 
 <script>
+var postname = document.getElementById('posts');
+postname.addEventListner('click',function(){
+    fbq('track', 'ViewContent',{content_title:'document.title',}
+  ) });
+  </script>
 
+
+
+
+
+
+})
 document.getElementById('post-page').onclick=fb_track
  function fb_track() {
 	fbq('track', 'ViewContent', {
