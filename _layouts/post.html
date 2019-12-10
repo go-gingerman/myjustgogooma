@@ -9,16 +9,19 @@ comments: true
 	<time datetime="{{ page.date | date_to_xmlschema }}" class="by-line">{{ page.date | date_to_string }}</time>
 	<div class="content">
 
+});
 		{{ content }}
 
 	</div>
+
 </article>
 
-{% include disqus.html %}
-
-
-	<script>
-  fbq('track', 'ViewContent', {
-    document_title: document.title,
-  });
+<script>
+	dataLayer.push({'content_id': '{{ content_id }}',
+'content_title':  '{{ content_title }}'
+});
 </script>
+
+
+
+{% include disqus.html %}

@@ -9,6 +9,7 @@ image:
 categories:
   - Prologue
   - review
+content_id: 03
 tags:
   - review
   - Justgogooma
@@ -141,7 +142,6 @@ description: 오키나와로 여행을 다녀온 지인으로부터 [베니이�
   <br>
 
 <hr/> 
-
 
  <br>
 
