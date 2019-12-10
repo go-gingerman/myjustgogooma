@@ -9,7 +9,7 @@ image:
 categories:
   - Prologue
   - review
-content_id: 03
+content_id: id03
 tags:
   - review
   - Justgogooma
@@ -142,7 +142,6 @@ description: 오키나와로 여행을 다녀온 지인으로부터 [베니이�
   <br>
 
 <hr/> 
-
  <br>
 
   품평 대회에서 수상까지한 오키나와 자색 고구마 타르트를 보면서 지역의 특산물을 정말 ‘잘’ 만들었 다는 생각이 듭니다

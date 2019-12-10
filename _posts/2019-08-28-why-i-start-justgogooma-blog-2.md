@@ -9,7 +9,7 @@ image:
 categories:
   - Prologue
   - Mystory
-content_id: 02
+content_id: id02
 tags:
   - Prologoue
   - Justgogooma

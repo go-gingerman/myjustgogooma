@@ -9,7 +9,7 @@ image:
 categories:
   - Prologue
   - review
-content_id: 05
+content_id: id05
 tags:
   - review
   - Justgogooma
